@@ -12,7 +12,7 @@ python-experiments-science/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
-
+```
 ## Getting Started
 
 To run the notebook and simulations locally, follow the steps below:
@@ -21,26 +21,30 @@ To run the notebook and simulations locally, follow the steps below:
 ```bash
 git clone https://github.com/yourusername/python-experiments-science.git
 cd python-experiments-science
+```
 
 2. Create a Virtual Environment (optional but recommended)
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
 
 3. Install Dependencies
 Install all required Python packages using requirements.txt:
 ```bash
 pip install -r requirements.txt
+```
 
 4. Run Jupyter Notebook
 Start the Jupyter Notebook server:
 ```bash
 jupyter notebook
+```
 
 This will open the Jupyter interface in your web browser. From there, navigate to the experiment you want to run, for example:
 ```bash
 quantum-physics/wave-function-collapse-simulation.ipynb
-
+```
 
 ## License
 
