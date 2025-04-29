@@ -7,6 +7,9 @@ This repository contains various Python-based experiments focused on **Physics**
 ```bash
 python-experiments-science/
 ├── quantum-physics/
+│   ├── double-slit-experiment.ipynb
+│   ├── gravitational-lensing-simulation.ipynb
+│   ├── quantum-harmonic-oscillator-visualization.ipynb
 │   ├── wave-function-collapse-simulation.ipynb
 │   └── README.md
 ├── requirements.txt
