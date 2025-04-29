@@ -1,17 +1,28 @@
-# Wave Function Collapse Simulation
+# Quantum Physics Experiments
 
-This experiment simulates the behavior of photons in a quantum interference scenario (like the double-slit experiment), with a visual representation of wave function collapse over time.
+This folder contains quantum-themed simulations using Python and matplotlib animations to visualize foundational physics concepts.
 
-## What is Simulated
-- Photons traveling toward a screen and forming an interference pattern.
-- Wave function collapse is simulated in real-time (with a visual "flash" effect).
-- The photon distribution changes from an interference pattern to a random pattern after the collapse.
+## Included Experiments
 
-## How to Run the Experiment
-You can run the experiment locally or in any environment that supports Jupyter notebooks (such as Deepnote, Google Colab, or Jupyter Lab).
+### 1. Wave Function Collapse Simulation
 
-### Steps to Run:
-1. Clone this repository and navigate to the `quantum-physics` directory:
-   ```bash
-   git clone https://github.com/toliveiradev/python-experiments-science.git
-   cd python-experiments-science/quantum-physics
+**File:** `wave-function-collapse-simulation.ipynb`
+
+Simulates photons being detected on a screen, first forming an interference pattern, and then suddenly transitioning into a uniform distribution due to a simulated wave function collapse.
+
+**Features:**
+- Real-time visualization with a "flash" at the moment of collapse.
+- Histograms show photon impacts evolving over time.
+
+---
+
+### 2. Double-Slit Experiment Simulation (Quantum Interference)
+
+**File:** `double-slit-experiment.ipynb`
+
+Visualizes quantum interference patterns by simulating photons passing through a double-slit setup and being detected on a screen.
+
+**Features:**
+- Animated detection pattern evolving with each photon.
+- No wave function collapse — continuous interference pattern.
+
